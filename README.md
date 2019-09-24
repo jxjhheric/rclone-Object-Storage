@@ -13,7 +13,7 @@
 
 选择左边的客户密钥，生成access_key 和secret_access_key
 ![2019-09-24_124348.png](https://i.loli.net/2019/09/24/Rb8ZplcBqT47zVk.png)
-**一定要记下access_key 和secret_access_key，**一会rclone配置的时候要用到
+**一定要记下access_key 和secret_access_key**，一会rclone配置的时候要用到
 ![2019-09-24_124444.png](https://i.loli.net/2019/09/24/aq2O53Zv4elmIjK.png)
 ![2019-09-24_124516.png](https://i.loli.net/2019/09/24/92HOi7lBVCwxZsf.png)
 ![2019-09-24_124640.png](https://i.loli.net/2019/09/24/jJVdTsxvr7oeOAL.png)
@@ -40,6 +40,6 @@ location_constraint =
 acl = private
 ```
 endpoint地址具体见[https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apiref.htm](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apiref.htm)说明  
-
-位置见下图：  
+![2019-09-24_131824.png](https://i.loli.net/2019/09/24/2UGisl5tEKbMWHZ.png)  
+object_storage_namespace位置见下图：  
 ![2019-09-24_130740.png](https://i.loli.net/2019/09/24/IGr1UmFxy7BWliY.png)
