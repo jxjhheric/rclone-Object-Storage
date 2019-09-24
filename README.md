@@ -35,8 +35,11 @@ env_auth = false
 access_key_id = xxxxxxxxxxxxxxxxxxx
 secret_access_key = xxxxxxxxxxxxxxxxxxxx
 region =  
-endpoint = https://[object_storage_namespace].compat.objectstorage.ap-tokyo-1.oraclecloud.com  具体见https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apiref.htm说明
+endpoint = https://[object_storage_namespace].compat.objectstorage.ap-tokyo-1.oraclecloud.com  
 location_constraint =  
 acl = private
 ```
+endpoint地址具体见[https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apiref.htm](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apiref.htm)说明  
 
+位置见下图：  
+![2019-09-24_130740.png](https://i.loli.net/2019/09/24/IGr1UmFxy7BWliY.png)
