@@ -22,9 +22,12 @@
 rclone ： https://rclone.org/downloads/  
 winfsp ： http://www.secfs.net/winfsp/download/  
 其中rclone的windows版需要解压，并添加解压目录到系统路径中。而依赖库winfsp下载完后一路Next直接安装就可以了。  
-安装完后在cmd中输入命令行  
-rclone.exe config  
+安装完后在cmd中输入命令行 
+```
+rclone.exe config 
+```
 选择Amazon S3
+```
 [oracle]
 type = s3
 provider = Other
@@ -35,4 +38,5 @@ region =
 endpoint = https://[object_storage_namespace].compat.objectstorage.ap-tokyo-1.oraclecloud.com  具体见https://docs.cloud.oracle.com/iaas/Content/API/Concepts/apiref.htm说明
 location_constraint =  
 acl = private
+```
 
